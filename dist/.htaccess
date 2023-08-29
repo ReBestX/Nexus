@@ -1,0 +1,64 @@
+RewriteEngine on
+
+# Disable error reporting
+php_flag display_errors off
+
+# Prevent Directory Listing
+Options -Indexes
+
+# Rewrite rule for Post pages
+RewriteRule ^post$ index [L]
+RewriteRule ^post/(\d+)$ post.php?id=$1 [NC,L]
+RewriteRule ^post/(\d+)&([\w-]+)$ post.php?id=$1&message=$2 [L]
+
+# Rewrite rule for pagination in index.php
+RewriteRule ^index/(\d+)$ index.php?page=$1 [NC,L]
+
+RewriteRule ^EditProfile/$ EditProfile.php [L]
+RewriteRule ^EditProfile/([\w-]+)$ EditProfile.php?message=$1 [L]
+
+# Rewrite rule for Profile.php
+RewriteRule ^Profile/$ /index [L]
+RewriteRule ^Profile$ index [L]
+RewriteRule ^Profile/(\d+)$ Profile.php?id=$1 [L]
+RewriteRule ^Profile/(\d+)&([\w-]+)$ Profile.php?id=$1&message=$2 [L]
+
+RewriteRule ^EditProfile$ EditProfile.php [L]
+
+# Rewrite rule for ProfileDraftPosts.php
+RewriteRule ^ProfileDraftPosts/$ ProfileDraftPosts.php [L]
+RewriteRule ^ProfileDraftPosts/([\w-]+)$ ProfileDraftPosts.php?message=$1 [L]
+
+# Rewrite rule for EditDraftPost.php
+RewriteRule ^EditDraftPost/(\d+)$ EditDraftPost.php?id=$1 [L]
+RewriteRule ^EditDraftPost/(\d+)&([\w-]+)$ EditDraftPost.php?id=$1&message=$2 [L]
+
+RewriteRule ^EditProfile/$ EditProfile.php [L]
+RewriteRule ^EditProfile/([\w-]+)$ EditProfile.php?message=$1 [L]
+
+RewriteRule ^EditPassword/$ EditPassword.php [L]
+RewriteRule ^EditPassword/([\w-]+)$ EditPassword.php?message=$1 [L]
+
+RewriteRule ^create-post/$ create-post.php [L]
+RewriteRule ^create-post/([\w-]+)$ create-post.php?message=$1 [L]
+
+RewriteRule ^sign-in/$ sign-in.php [L]
+RewriteRule ^sign-in/([\w-]+)$ sign-in.php?message=$1 [L]
+
+RewriteRule ^Forget_Password/$ Forget_Password.php [L]
+RewriteRule ^Forget_Password/([\w-]+)$ Forget_Password.php?message=$1 [L]
+
+RewriteRule ^SetNewPassword/$ sign-in/ [L]
+RewriteRule ^SetNewPassword/([\w-]+)$ SetNewPassword.php?token=$1 [L]
+RewriteRule ^SetNewPassword/([\w-]+)&([\w-]+)$ SetNewPassword.php?token=$1&message2=$2 [L]
+
+RewriteRule ^sign-up/$ sign-up.php [L]
+RewriteRule ^sign-up/([\w-]+)$ sign-up.php?message=$1 [L]
+
+RewriteRule ^create-post/$ create-post.php [L]
+RewriteRule ^create-post/([\w-]+)$ create-post.php?message=$1 [L]
+
+RewriteRule ^category$ index [L]
+RewriteRule ^category/(\d+)$ category.php?id=$1 [L]
+# Rewrite rule for static pages
+RewriteRule ^(index|post|404page|about|category|create-post|post|project|search|Service|sign-in|sign-up|Support)$ $1.php [NC,L]

@@ -1,0 +1,4 @@
+RewriteEngine on
+
+# Prevent Directory Listing
+Options -Indexes
