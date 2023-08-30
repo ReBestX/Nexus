@@ -1,0 +1,62 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"nexus"},
+{"type":"table","name":"categories","database":"nexus","data":
+[
+{"cat_id":"55","cat_title":"Web Development"},
+{"cat_id":"56","cat_title":"Mobile App Development"},
+{"cat_id":"57","cat_title":"Data Science and Machine Learning"},
+{"cat_id":"58","cat_title":"Algorithms and Data Structures"},
+{"cat_id":"59","cat_title":"Software Engineering"},
+{"cat_id":"60","cat_title":"DevOps"},
+{"cat_id":"61","cat_title":"Game Development"},
+{"cat_id":"62","cat_title":"Cybersecurity"},
+{"cat_id":"63","cat_title":"Internet of Things"}
+]
+}
+,{"type":"table","name":"comments","database":"nexus","data":
+[
+{"comment_id":"36","comment_post_id":"95","comment_author":"user","comment_email":"user@gmail.com","comment_content":"Wow great post , (We Will aprove this comment from the admin account)","comment_status":"approved","comment_date":"2023-07-23"},
+{"comment_id":"37","comment_post_id":"91","comment_author":"mohammedh","comment_email":"mohammed19@gmail.com","comment_content":"wow keep the good work , (We will aprove this too :) )","comment_status":"approved","comment_date":"2023-07-23"},
+{"comment_id":"38","comment_post_id":"94","comment_author":"mohammedh","comment_email":"mohammed19@gmail.com","comment_content":"Very Nice !","comment_status":"approved","comment_date":"2023-07-23"},
+{"comment_id":"39","comment_post_id":"97","comment_author":"aymanismail","comment_email":"aymanxbassam@gmail.com","comment_content":"Welcome to the Website :)","comment_status":"approved","comment_date":"2023-07-23"}
+]
+}
+,{"type":"table","name":"likes","database":"nexus","data":
+[
+{"id":"187","user_id":"32","post_id":"91"},
+{"id":"188","user_id":"32","post_id":"94"},
+{"id":"189","user_id":"2","post_id":"88"},
+{"id":"190","user_id":"2","post_id":"97"}
+]
+}
+,{"type":"table","name":"posts","database":"nexus","data":
+[
+{"post_id":"87","post_category":"55","post_title":"Introduction to HTML and CSS","post_author":"21","post_date":"2023-07-22","post_image":"IMG-64bb18930d02d5.75481531.png","post_content":"In this post, we'll explore the fundamentals of HTML and CSS and how they work together to build beautiful web pages.","post_tags":"webdevelopment, html, css, webdesign","post_likes":"0","post_comment_count":"0","post_status":"published"},
+{"post_id":"88","post_category":"56","post_title":"Building Your First Android App","post_author":"22","post_date":"2023-07-22","post_image":"IMG-64bb1a46d677b5.31868800.png","post_content":"Follow this step-by-step guide to create your first Android app from scratch using Android Studio and Java.","post_tags":"mobileappdevelopment, android ,appdevelopment ,androidstudio","post_likes":"1","post_comment_count":"0","post_status":"published"},
+{"post_id":"89","post_category":"57","post_title":"Exploring Data with Pandas","post_author":"23","post_date":"2023-07-22","post_image":"IMG-64bb1c06f3cee1.72390739.png","post_content":"Learn how to use Pandas, a powerful Python library, to manipulate and analyze data for your machine learning projects.","post_tags":"datascience, machinelearning, pandas, python","post_likes":"0","post_comment_count":"0","post_status":"published"},
+{"post_id":"90","post_category":"58","post_title":"Mastering Sorting Algorithms","post_author":"24","post_date":"2023-07-22","post_image":"IMG-64bb1ee94e3918.46842895.jpg","post_content":"Dive into various sorting algorithms like Bubble Sort, Merge Sort, and Quick Sort, and understand their time complexities and applications.","post_tags":"algorithms, datastructures, sorting, computerscience","post_likes":"0","post_comment_count":"0","post_status":"published"},
+{"post_id":"91","post_category":"59","post_title":"Best Practices for Code Documentation","post_author":"25","post_date":"2023-07-22","post_image":"IMG-64bb1fa6c4c414.77291780.png","post_content":"Proper code documentation is crucial for maintaining large-scale projects. Learn the best practices to make your code more readable and maintainable.","post_tags":"softwareengineering, documentation, programming, bestpractices","post_likes":"1","post_comment_count":"1","post_status":"published"},
+{"post_id":"92","post_category":"60","post_title":"Continuous Integration with Jenkins","post_author":"26","post_date":"2023-07-22","post_image":"IMG-64bb217d5b71b7.66048175.png","post_content":"Discover how Jenkins can automate your software development processes and enable continuous integration and continuous delivery (CI\/CD).","post_tags":"devops, jenkins, continuousintegration, cicd","post_likes":"0","post_comment_count":"0","post_status":"published"},
+{"post_id":"93","post_category":"61","post_title":"Introduction to Unity Game Engine","post_author":"27","post_date":"2023-07-22","post_image":"IMG-64bb259455e2e5.95532597.png","post_content":"Learn the basics of Unity and start creating your own 2D and 3D games with this powerful game development engine.","post_tags":"gamedevelopment, unity, gameengine, gamedev","post_likes":"0","post_comment_count":"0","post_status":"published"},
+{"post_id":"94","post_category":"62","post_title":"Common Cybersecurity Threats and How to Defend Against Them","post_author":"28","post_date":"2023-07-22","post_image":"IMG-64bb2d09bf0d57.72667847.jpg","post_content":"Stay one step ahead of cybercriminals by understanding common threats and implementing effective cybersecurity measures.","post_tags":"cybersecurity, cyberthreats, infosec, networksecurity","post_likes":"1","post_comment_count":"1","post_status":"published"},
+{"post_id":"95","post_category":"63","post_title":"Getting Started with IoT Development using Raspberry Pi","post_author":"29","post_date":"2023-07-22","post_image":"IMG-64bb2eb9e04c76.89504874.png","post_content":"Learn how to build your own Internet of Things projects using a Raspberry Pi and connect physical devices to the digital world.","post_tags":"iot, internetofthings, raspberrypi, embedded","post_likes":"0","post_comment_count":"3","post_status":"published"},
+{"post_id":"97","post_category":"56","post_title":"Building Cross-Platform Mobile Apps with React Native","post_author":"32","post_date":"2023-07-23","post_image":"IMG-64bc6e0240b700.63388646.png","post_content":"In this post, we explore the power of React Native for building cross-platform mobile applications. React Native allows developers to use a single codebase to create apps that work seamlessly on both iOS and Android devices. We&#039;ll delve into the core concepts of React Native, discuss its benefits, and provide a step-by-step guide on setting up your development environment. From there, we&#039;ll create a simple mobile app, showcasing the ease and efficiency of building user interfaces with React Native components. Whether you&#039;re a seasoned developer or just getting started, React Native is a game-changer for mobile app development!","post_tags":"mobileappdevelopment, reactnative, crossplatform, iOS, Android, mobiledevelopment","post_likes":"1","post_comment_count":"1","post_status":"published"}
+]
+}
+,{"type":"table","name":"users","database":"nexus","data":
+[
+{"user_id":"2","user_username":"aymanismail","user_password":"$2y$10$j6BdOg510USex1b3ZFQoNecFtP65yrM511GGm0\/yAUc3ZVPG6xICq","user_firstname":"Ayman","user_lastname":"Bassam","user_email":"aymanxbassam@gmail.com","user_image":"IMG-64b0838893d4f5.36068300.jpg","user_role":"admin","user_CreateDate":"2023-07-09","token":""},
+{"user_id":"21","user_username":"janedoe","user_password":"$2y$10$zOVB1lRRaS6y0KsZ84nmIOAG4Lol.39Gs12jiMo\/KS\/OpAhA2j8b.","user_firstname":"Jane","user_lastname":"Doe","user_email":"janedoe@gmail.com","user_image":"IMG-64bb17dccfd4b6.51181052.jpg","user_role":"user","user_CreateDate":"2023-07-22","token":""},
+{"user_id":"22","user_username":"johnsmith","user_password":"$2y$10$eWHF\/bJFlP8RUIhtuXWn1uOI5uQcLPAUssWn9nBirm\/ztggjslJlS","user_firstname":"John","user_lastname":"Smith","user_email":"johnsmith@gmail.com","user_image":"IMG-64bb19de783013.87530151.jpg","user_role":"user","user_CreateDate":"2023-07-22","token":""},
+{"user_id":"23","user_username":"emilyjohnson","user_password":"$2y$10$y21HCMkYTwXpVpEJi10wru3.vjqKNz89MLLX7dooMIw6nt5okPR\/.","user_firstname":"Emily","user_lastname":"Johnson","user_email":"emilyjohnson@gmail.com","user_image":"IMG-64bb1b4aa41d21.24891555.jpg","user_role":"user","user_CreateDate":"2023-07-22","token":""},
+{"user_id":"24","user_username":"michaellee","user_password":"$2y$10$Xjyl7xqCjZkxIq\/Wf\/h9peC6jOYF\/Ge18viBoIrYWw2ADBGGPUn4i","user_firstname":"Michael","user_lastname":"Lee","user_email":"michaellee@gmail.com","user_image":"IMG-64bb1daf576955.97462561.jpg","user_role":"user","user_CreateDate":"2023-07-22","token":""},
+{"user_id":"25","user_username":"alexturner","user_password":"$2y$10$Itietyn4AWnDQHuzQnfRBuxnuiAnr4JSIz37ZHlbULwf87q1Hxh1e","user_firstname":"Alex","user_lastname":"Turner","user_email":"alexturner@gmail.com","user_image":"IMG-64bb1f61374468.36002956.jpg","user_role":"user","user_CreateDate":"2023-07-22","token":""},
+{"user_id":"26","user_username":"samanthawhite","user_password":"$2y$10$Psm5rN3q3.LrGO2vs9uacuo4YTlV21\/FqBGrJIfjGFrf3cSvvzVDu","user_firstname":"Samantha","user_lastname":"White","user_email":"samanthawhite@gmail.com","user_image":"IMG-64bb205a4289a7.92911759.jpg","user_role":"user","user_CreateDate":"2023-07-22","token":""},
+{"user_id":"27","user_username":"chrisroberts","user_password":"$2y$10$i07mm\/RjgqAi3uhZWGmX8eulMtf\/IDy7R2elmRIisRPMQ4ts.\/MF6","user_firstname":"Chris","user_lastname":"Roberts","user_email":"chrisroberts@gmail.com","user_image":"IMG-64bb25370dede3.59835739.jpg","user_role":"user","user_CreateDate":"2023-07-22","token":""},
+{"user_id":"28","user_username":"sarahadams","user_password":"$2y$10$NKekZ04o8kwvVJtIiJ68bO\/iFQhNqQFtE0c6y.i0AnLDz336kdXie","user_firstname":"Sarah","user_lastname":"Adams","user_email":"sarahadams@gmail.com","user_image":"IMG-64bb25f9b33354.10292756.jpg","user_role":"user","user_CreateDate":"2023-07-22","token":""},
+{"user_id":"29","user_username":"kevinbrown","user_password":"$2y$10$SFwborihfIRl58cVLrNx4.yt0ej5xK7vUJkCIqhbWdeqUdLwRG2HK","user_firstname":"Kevin","user_lastname":"Brown","user_email":"kevinbrown@gmail.com","user_image":"IMG-64bb2e68a8c2f7.95736310.jpg","user_role":"user","user_CreateDate":"2023-07-22","token":""},
+{"user_id":"32","user_username":"mohammedh","user_password":"$2y$10$tZ\/pjjjFI9txVuOzpGMiHeoJJWuQ.j89xpbDFNosnHbXgtkz.K\/l6","user_firstname":"Mohammed","user_lastname":"hassan","user_email":"mohammed19@gmail.com","user_image":"IMG-64bc6ddfdc5e04.42757757.jpg","user_role":"user","user_CreateDate":"2023-07-23","token":""}
+]
+}
+]
