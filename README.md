@@ -12,7 +12,7 @@ Throughout the development journey, I've harnessed an array of cutting-edge tech
 
 Check out the project preview video to get a visual overview of the Project:
 
-[Watch the Project Preview Video](https://youtu.be/sy2gPF2ULxY)
+[Watch the Project Preview Video](https://youtu.be/sy2gPF2ULxY) 
 
 ## 🎯 Key Features:
 
